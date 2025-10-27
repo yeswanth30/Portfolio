@@ -73,34 +73,26 @@
       "title": "Jeep Life App",
       "description": "Mobile app for Jeep owners to explore vehicle features & connect with the community. Published on Google Play Store with high-quality UI/UX and strong performance.",
       "technologies": ["Kotlin", "Android SDK", "Firebase", "RESTful APIs"],
-      "imageIcon": "fas fa-car",
-      "playstore": "https://play.google.com/store/apps/details?id=com.jeep",
-      "github": "https://github.com/yeswanth30"
-    },
+      "image": "jeeplogo.png",
+      "playstore": "https://play.google.com/store/apps/details?id=com.fcaindia.drive&hl=en_IN"},
     {
       "title": "SurfBank",
       "description": "A platform for users to save, organize, and share content in a structured and accessible manner. Built with modern Android architecture and intuitive UI design.",
       "technologies": ["Kotlin", "Jetpack Compose", "Firebase", "MVVM"],
-      "imageIcon": "fas fa-folder-open",
-      "playstore": "https://play.google.com/store/apps/details?id=com.surfbank",
-      "github": "https://github.com/yeswanth30"
-    },
+      "image": "surfbanklogo.jpeg",
+      "playstore": "https://play.google.com/store/apps/details?id=org.surfbank.live&hl=en_IN"},
     {
       "title": "Volkswagen Infra Audit App",
       "description": "App to streamline infrastructure audits for Volkswagen dealerships. Improved audit efficiency with real-time data synchronization and offline capabilities.",
       "technologies": ["Kotlin", "Flutter", "Firebase", "Offline Storage"],
-      "imageIcon": "fas fa-clipboard-check",
-      "playstore": "https://play.google.com/store/apps",
-      "github": "https://github.com/yeswanth30"
-    },
+      "image": "volkswagenlogo.png",
+      "playstore": "https://play.google.com/store/apps/details?id=com.feqma.InfraAudit&hl=en_IN"},
     {
       "title": "Volkswagen Assistance - Dealer App",
       "description": "Dealer app to manage Volkswagen service operations & workflows. Enhanced dealer productivity with automated workflows and real-time updates.",
       "technologies": ["Kotlin", "Java", "Firebase", "REST APIs"],
-      "imageIcon": "fas fa-cogs",
-      "playstore": "https://play.google.com/store/apps",
-      "github": "https://github.com/yeswanth30"
-    }
+      "image": "volkswagenlogo.png",
+      "playstore": "https://play.google.com/store/apps/details?id=com.vectorform.msu&hl=en_IN"}
   ],
   "experience": [
     {
@@ -118,10 +110,10 @@
       ]
     },
     {
-      "title": "Android Developer Intern",
+      "title": "Android Developer ",
       "company": "Capace Software Private Limited",
       "duration": "Sep 2023 - April 2024",
-      "type": "Internship",
+      "type": "Full Time",
       "description": "Gained hands-on experience in developing Android applications with modern frameworks. Worked on API integration, Firebase services, and implementing best practices in mobile app development.",
       "responsibilities": [
         "Developed Android applications using Kotlin and Jetpack Compose",
@@ -171,6 +163,6 @@
     "sendMessage": "Send Message"
   },
   "footer": {
-    "copyright": "© 2024 Sai Yeswanth Bhavanasi. All rights reserved."
+    "copyright": "© 2025 Sai Yeswanth Bhavanasi. All rights reserved."
   }
 }

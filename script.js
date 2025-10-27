@@ -120,22 +120,28 @@ function populateSkills() {
 function populateProjects() {
     const projectsGrid = document.querySelector('.projects-grid');
     projectsGrid.innerHTML = '';
-    
+
     portfolioData.projects.forEach(project => {
         const projectCard = document.createElement('div');
         projectCard.className = 'project-card';
-        
+
         let techTags = '';
         project.technologies.forEach(tech => {
             techTags += `<span>${tech}</span>`;
         });
-        
-        const githubLink = project.github || '#';
+
         const playstoreLink = project.playstore || '#';
-        
+
+        let imageContent = '';
+        if (project.image && project.image.trim() !== '') {
+            imageContent = `<img src="${project.image}" alt="${project.title}" class="project-img-circle">`;
+        } else if (project.imageIcon && project.imageIcon.trim() !== '') {
+            imageContent = `<i class="${project.imageIcon} project-icon-circle"></i>`;
+        }
+
         projectCard.innerHTML = `
             <div class="project-image">
-                <i class="${project.imageIcon}"></i>
+                ${imageContent}
             </div>
             <div class="project-content">
                 <h3>${project.title}</h3>
@@ -144,15 +150,15 @@ function populateProjects() {
                     ${techTags}
                 </div>
                 <div class="project-links">
-                    <a href="${githubLink}" target="_blank" class="btn-link"><i class="fab fa-github"></i> Code</a>
-                    <a href="${playstoreLink}" target="_blank" class="btn-link"><i class="fab fa-google-play"></i> Play Store</a>
+                    ${playstoreLink !== '#' ? `<a href="${playstoreLink}" target="_blank" class="btn-link"><i class="fab fa-google-play"></i> Play Store</a>` : ''}
                 </div>
             </div>
         `;
-        
+
         projectsGrid.appendChild(projectCard);
     });
 }
+
 
 function populateExperience() {
     const timeline = document.querySelector('.timeline');
