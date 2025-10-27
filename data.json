@@ -1,0 +1,176 @@
+{
+  "personal": {
+    "name": "Sai Yeswanth Bhavanasi",
+    "title": "Android Developer & Mobile App Engineer",
+    "description": "Passionate Android Developer with 2+ years of experience in designing, developing, and deploying mobile applications. Skilled in Kotlin, Java, Flutter, and modern Android frameworks."
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/sai-yeswanth-bhavanasi-b8964a245",
+    "github": "https://github.com/yeswanth30",
+    "twitter": "https://twitter.com/yeswanth",
+    "email": "bhavanasiyeshwanth@gmail.com"
+  },
+  "about": {
+    "paragraph1": "Android Developer with 2+ years of experience in designing, developing, and deploying mobile applications. Skilled in Kotlin, Java, and Jetpack Compose with expertise in API integration, Firebase, and modern Android libraries. Adept at end-to-end mobile development lifecycle, debugging, and performance optimization.",
+    "paragraph2": "Passionate about building scalable, user-friendly apps and delivering business impact. Proficient in Kotlin, Jetpack Compose, Flutter, and Dart, with expertise in RESTful API integration, Firebase services, and modern mobile app development frameworks. Strong foundation in Object-Oriented Programming, asynchronous programming, state management, and cloud integration.",
+    "stats": [
+      {
+        "number": "4+",
+        "label": "Apps on Play Store"
+      },
+      {
+        "number": "2+",
+        "label": "Years Experience"
+      },
+      {
+        "number": "100%",
+        "label": "Production Quality"
+      }
+    ]
+  },
+  "skills": {
+    "languages": {
+      "name": "Languages",
+      "icon": "fas fa-code",
+      "items": [
+        {"name": "Java", "level": 90},
+        {"name": "Kotlin", "level": 95},
+        {"name": "Dart", "level": 85},
+        {"name": "SQL", "level": 85}
+      ]
+    },
+    "frameworks": {
+      "name": "Frameworks / SDKs",
+      "icon": "fas fa-mobile-alt",
+      "items": [
+        {"name": "Flutter", "level": 85},
+        {"name": "Jetpack Compose", "level": 88},
+        {"name": "Android SDK", "level": 92}
+      ]
+    },
+    "tools": {
+      "name": "Tools & Technologies",
+      "icon": "fas fa-tools",
+      "tags": [
+        "Android Studio", "Git", "Postman", "Bitbucket", 
+        "SourceTree", "MySQL", "Firebase", 
+        "HTML", "CSS", "Bootstrap", "UI/UX Design",
+        "RESTful APIs", "Third-party APIs"
+      ]
+    }
+  },
+  "projects": [
+    {
+      "title": "Jeep Life App",
+      "description": "Mobile app for Jeep owners to explore vehicle features & connect with the community. Published on Google Play Store with high-quality UI/UX and strong performance.",
+      "technologies": ["Kotlin", "Android SDK", "Firebase", "RESTful APIs"],
+      "imageIcon": "fas fa-car",
+      "playstore": "https://play.google.com/store/apps/details?id=com.jeep",
+      "github": "https://github.com/yeswanth30"
+    },
+    {
+      "title": "SurfBank",
+      "description": "A platform for users to save, organize, and share content in a structured and accessible manner. Built with modern Android architecture and intuitive UI design.",
+      "technologies": ["Kotlin", "Jetpack Compose", "Firebase", "MVVM"],
+      "imageIcon": "fas fa-folder-open",
+      "playstore": "https://play.google.com/store/apps/details?id=com.surfbank",
+      "github": "https://github.com/yeswanth30"
+    },
+    {
+      "title": "Volkswagen Infra Audit App",
+      "description": "App to streamline infrastructure audits for Volkswagen dealerships. Improved audit efficiency with real-time data synchronization and offline capabilities.",
+      "technologies": ["Kotlin", "Flutter", "Firebase", "Offline Storage"],
+      "imageIcon": "fas fa-clipboard-check",
+      "playstore": "https://play.google.com/store/apps",
+      "github": "https://github.com/yeswanth30"
+    },
+    {
+      "title": "Volkswagen Assistance - Dealer App",
+      "description": "Dealer app to manage Volkswagen service operations & workflows. Enhanced dealer productivity with automated workflows and real-time updates.",
+      "technologies": ["Kotlin", "Java", "Firebase", "REST APIs"],
+      "imageIcon": "fas fa-cogs",
+      "playstore": "https://play.google.com/store/apps",
+      "github": "https://github.com/yeswanth30"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Android Developer",
+      "company": "Feqma Technologies Private Limited",
+      "duration": "May 2024 - Present",
+      "type": "Full Time",
+      "description": "Develop and deploy production-grade mobile applications. Implemented scalable architectures including MVVM and Clean Architecture, ensuring testability, modularity, and maintainability across Android projects.",
+      "responsibilities": [
+        "Developed and deployed 4+ production-grade mobile applications published on Google Play Store",
+        "Proficient in Kotlin, Jetpack Compose, Flutter, and Dart with expertise in RESTful API integration",
+        "Implemented scalable architectures such as MVVM, VIPER, and Clean Architecture",
+        "Collaborated using Git, Bitbucket, and SourceTree, performing code reviews and debugging",
+        "Strong foundation in Object-Oriented Programming, asynchronous programming, and cloud integration"
+      ]
+    },
+    {
+      "title": "Android Developer Intern",
+      "company": "Capace Software Private Limited",
+      "duration": "Sep 2023 - April 2024",
+      "type": "Internship",
+      "description": "Gained hands-on experience in developing Android applications with modern frameworks. Worked on API integration, Firebase services, and implementing best practices in mobile app development.",
+      "responsibilities": [
+        "Developed Android applications using Kotlin and Jetpack Compose",
+        "Integrated RESTful APIs and third-party services",
+        "Implemented Firebase Authentication and Push Notifications",
+        "Participated in code reviews and collaborated with development team",
+        "Worked with modern Android libraries and development frameworks"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "type": "degree",
+      "degree": "Bachelor of Engineering (B.E)",
+      "institution": "Vellore Institute of Technology (VIT), Vellore",
+      "year": "2019 - 2023",
+      "field": "Electronics and Communication Engineering (ECE)",
+      "cgpa": "CGPA: 7.97",
+      "description": "Completed undergraduate degree with strong foundation in electronics and communication engineering. Relevant coursework includes embedded systems, digital signal processing, and wireless communication systems."
+    },
+    {
+      "type": "achievement",
+      "degree": "Research Publication",
+      "institution": "IRJET Journal",
+      "year": "2022",
+      "cgpa": "",
+      "description": "Published a paper titled 'Automation of Railway Gate and Road Traffic using Internet of Things' in IRJET (An ISO 9001:2008 certified journal) in April-May 2022, showcasing expertise in IoT, research, and publication."
+    }
+  ],
+  "contact": {
+    "title": "Let's Connect",
+    "description": "I'm always interested in hearing about new opportunities and exciting mobile app projects. Feel free to reach out!",
+    "email": "bhavanasiyeshwanth@gmail.com",
+    "phone": "+91 8639037130",
+    "location": "Hyderabad, India",
+    "form": {
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "subjectPlaceholder": "Subject",
+      "messagePlaceholder": "Your Message",
+      "submitButton": "Send Message"
+    }
+  },
+  "buttons": {
+    "getInTouch": "Get In Touch",
+    "viewWork": "View My Work",
+    "sendMessage": "Send Message"
+  },
+  "footer": {
+    "copyright": "© 2024 Sai Yeswanth Bhavanasi. All rights reserved."
+  }
+}
